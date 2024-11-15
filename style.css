@@ -14,6 +14,7 @@
   height: 20vh;
   align-items: center;
   text-decoration: none;
+  padding: 10px;
 }
 .nav_bar a {
   color: white;
@@ -104,24 +105,8 @@ table {
 }
 /* End of index file */
 
-/* About & About_us file starts here */
+/*  About_us file starts here */
 
-.about_project {
-  background-color: #279b9b;
-  border: 5px solid black;
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about_section {
-  margin-left: auto;
-  margin-right: auto;
-}
 .aboutus_heading {
   background-color: #4db9af;
   border: 5px solid black;
@@ -129,15 +114,10 @@ table {
   height: 10%;
   padding: 2vh;
 }
-.about_main {
+.aboutus_main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.about_myproject {
-  background-color: #7eb1a9;
-  color: black;
 }
 
 .aboutus_paragraph {
@@ -149,7 +129,7 @@ table {
   background-color: #7eb1a9;
   color: black;
 }
-.paragraph {
+/* .paragraph {
   background-color: #b9c4c9;
   border: 5px solid black;
   display: flex;
@@ -158,9 +138,42 @@ table {
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
-}
+} */
 .text_book {
   text-align: justify;
+}
+/* about start */
+.about_project_full {
+  background-color: #7eb1a9;
+  color: black;
+}
+.about_project_paragraph {
+  background-color: #b9c4c9;
+  border: 5px solid black;
+  padding: 50px;
+}
+.about_project_main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about_project_heading {
+  background-color: #4db9af;
+  border: 5px solid black;
+  text-align: center;
+  height: 10%;
+  padding: 2vh;
+}
+.about_project_heading_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_project_text {
+  color: black;
+  height: auto;
+  margin-top: 2%;
 }
 /* About & About_us file ends here */
 
