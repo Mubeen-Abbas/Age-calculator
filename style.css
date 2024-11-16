@@ -217,6 +217,7 @@ table {
   }
   .prestige {
     display: block;
+      font-size: medium;
   }
   .nav_bar {
     height: auto;
