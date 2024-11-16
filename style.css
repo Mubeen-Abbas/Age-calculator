@@ -52,13 +52,14 @@
   flex-direction: column;
   gap: 5px;
   justify-content: center;
-  padding: 5cap;
+  padding: 5%;
 }
 .user_input input {
   width: 35%;
   height: auto;
   border-radius: 5px;
   background-color: #b3ece8;
+  text-align: center;
 }
 .check_btn {
   border: black, 3px, dashed;
@@ -219,5 +220,10 @@ table {
   }
   .nav_bar {
     height: auto;
+  }
+  .user_input input {
+    width: 70%;
+    text-align: center;
+    text-align: center;
   }
 }
